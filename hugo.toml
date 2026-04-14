@@ -4,6 +4,8 @@ enableGitInfo = true
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
+baseURL = "https://hugo-theme-chirpy.pages.dev/"
+
 [pagination]
   pagerSize = 5
 
