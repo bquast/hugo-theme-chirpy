@@ -15,9 +15,9 @@ author = "Bastiaan"
   icon = "fab fa-github"
 
 [[social.links]]
-  type = "linkedin"
+  type = "twitter"
   id = "baquast"
-  icon = "fab fa-linkedin"
+  icon = "fab fa-twitter"
 
 [comments]
   enable = false
