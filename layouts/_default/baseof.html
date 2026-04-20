@@ -10,19 +10,6 @@
           <main aria-label="Main Content" class="col-12 col-lg-11 col-xl-9 px-md-4">
             {{ block "main" . }}{{ end }}
           </main>
-          <aside aria-label="Panel" id="panel-wrapper" class="col-xl-3 ps-2 text-muted">
-            <div class="access">
-              {{ partialCached "update-list.html" . }}
-              {{ partialCached "trending-tags.html" . }}
-            </div>
-            {{ block "panel" . }}{{ end }}
-          </aside>
-        </div>
-        <div class="row">
-          <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-md-4">
-            {{ block "tail" . }}{{ end }}
-            {{ partialCached "footer.html" . }}
-          </div>
         </div>
         {{ partial "search-results.html" . }}
       </div>
