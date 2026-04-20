@@ -14,6 +14,11 @@ author = "Bastiaan"
   id = "bquast"
   icon = "fab fa-github"
 
+[[social.links]]
+  type = "linkedin"
+  id = "baquast"
+  icon = "fab fa-linkedin"
+
 [comments]
   enable = false
   provider = ""
