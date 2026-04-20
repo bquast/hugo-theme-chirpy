@@ -7,9 +7,9 @@
   {{ $pinned_size := 0 }}
 
   <!-- Get pinned posts on current page -->
-  {{ $paginator := $all_posts }}
-  {{ $visible_start := 0 }}
-  {{ $visible_end := len $all_posts }}
+  {{ $paginator := .Paginate $all_posts }}
+  {{ $visible_start := sub $paginator.PageNumber 1 | mul $paginator.PagerSize }}
+  {{ $visible_end := add $visible_start $paginator.PagerSize }}
 
   {{ if gt (len $all_pinned) $visible_start }}
     {{ if gt (len $all_pinned) $visible_end }}
