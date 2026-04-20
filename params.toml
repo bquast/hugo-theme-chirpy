@@ -1,0 +1,19 @@
+toc = true
+avatar = "https://2.gravatar.com/avatar/0ccdec5c65411080241ed437de00b897962f2ba29f4b81f4ede8383ccebb1482?size=512"
+author = "Bastiaan"
+
+[assets]
+  self_host = false
+
+[social]
+  name = "Bastiaan Quast"
+  url = "https://github.com/bquast"
+
+[[social.links]]
+  type = "github"
+  id = "bquast"
+  icon = "fab fa-github"
+
+[comments]
+  enable = false
+  provider = ""
