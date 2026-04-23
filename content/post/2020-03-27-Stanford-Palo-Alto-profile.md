@@ -6,7 +6,7 @@ header:
   overlay_filter: 0.5
 ---
 
-![Bastiaan Quast Profile CC BY 40](/assets/images/PROFILE.jpg)
+![Bastiaan Quast Profile CC BY 40](/assets/img/PROFILE.jpg)
 
 Profile 
 
