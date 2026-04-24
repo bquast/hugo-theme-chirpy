@@ -27,7 +27,7 @@ author = "Bastiaan"
 [[social.links]]
   type = "custom"
   id = "https://grokipedia.com/page/bastiaan_quast"
-  icon = "fas fa-book"
+  icon = "fa-solid fa-planet-ringed"
   noblank = false
 
 [comments]
