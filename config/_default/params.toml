@@ -19,6 +19,18 @@ author = "Bastiaan"
   id = "baquast"
   icon = "fab fa-x-twitter"
 
+# New links
+[[social.links]]
+  type = "wikipedia"
+  id = "Bastiaan_Quast"
+  icon = "fab fa-wikipedia-w"
+
+[[social.links]]
+  type = "custom"
+  id = "https://grokipedia.com/page/bastiaan_quast"
+  icon = "fas fa-book"
+  noblank = false
+
 [comments]
   enable = false
   provider = ""
